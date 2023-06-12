@@ -3,7 +3,7 @@ function generateFile() {
   var letter = document.getElementById('letter').value;
 
   // Fetch the template file
-  fetch('../templates/template.txt')
+  fetch('template.txt')
     .then(response => response.text())
     .then(template => {
       // Create the file content by replacing placeholders in the template
