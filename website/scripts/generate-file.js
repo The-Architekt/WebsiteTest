@@ -13,7 +13,7 @@ function generateFile() {
       var blob = new Blob([finalContent], { type: 'text/plain' });
 
       // Generate a unique filename for the file (optional)
-      var filename = 'generated_file_' + new Date().getTime() + '.txt';
+      var filename = 'generated_file_' + new Date().getTime() + '.ahk';
 
       // Create a link element for downloading the file
       var downloadLink = document.createElement('a');
