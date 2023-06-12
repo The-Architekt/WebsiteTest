@@ -3,7 +3,7 @@ function generateFile() {
   var letter = document.getElementById('letter').value;
 
   // Fetch the template file using GitHub Pages API
-  var url = 'https://api.github.com/repos/yourusername/yourrepository/contents/templates/template.txt';
+  var url = 'https://api.github.com/repos/The-Architekt/WebsiteTest/contents/templates/template.txt';
   
   fetch(url)
     .then(response => response.json())
